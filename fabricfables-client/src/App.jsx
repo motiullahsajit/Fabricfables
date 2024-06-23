@@ -2,8 +2,9 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navigation from "./customer/components/Navigation/Navigation";
 import HomePage from "./customer/Pages/HomePage/HomePage";
-import Footer from "./customer/Footer/Footer";
+import Footer from "./customer/components/Footer/Footer";
 import Product from "./customer/components/Product/Product";
+import ProductDetails from "./customer/components/ProductDetails/ProductDetails";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Navigation />
       <div>
         {/* <HomePage /> */}
-        <Product />
+        {/* <Product /> */}
+        <ProductDetails />
       </div>
       <div>
         <Footer />
