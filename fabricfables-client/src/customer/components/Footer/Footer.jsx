@@ -106,7 +106,7 @@ const Footer = () => {
         </Grid>
         <Grid className="pt-20" item xs={12}>
           <Typography variant="body2" component="p" align="center">
-            &copy; 2023 Fabricfables. All rights reserved.
+            &copy; 2024 Fabricfables. All rights reserved.
           </Typography>
         </Grid>
       </Grid>
