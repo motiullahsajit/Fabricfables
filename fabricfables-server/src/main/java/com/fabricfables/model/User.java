@@ -52,7 +52,10 @@ public class User {
 
     }
 
-    public User(Long id, String firstName, String lastName, String password, String email, String role, String mobile, List<Address> address, List<PaymentInformation> paymentInformation, List<Rating> ratings, List<Review> reviews, LocalDateTime createdAt) {
+
+    public User(Long id, String firstName, String lastName, String password, String email, String role, String mobile,
+        List<Address> address, List<PaymentInformation> paymentInformation, List<Rating> ratings,
+        List<Review> reviews, LocalDateTime createdAt) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -163,6 +166,5 @@ public class User {
         this.createdAt = createdAt;
     }
 
-    
 
 }

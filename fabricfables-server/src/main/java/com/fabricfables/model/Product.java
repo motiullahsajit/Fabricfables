@@ -75,7 +75,10 @@ public class Product {
 
     }
 
-    public Product(Long id, String title, String description, String price, String discountPrice, String discountPercent, String quantity, String brand, String color, Set<Size> sizes, String imageUrl, List<Rating> ratings, List<Review> reviews, int numRatings, Category category, LocalDateTime createdAt) {
+
+    public Product(Long id, String title, String description, String price, String discountPrice,
+            String discountPercent, String quantity, String brand, String color, Set<Size> sizes, String imageUrl,
+            List<Rating> ratings, List<Review> reviews, int numRatings, Category category, LocalDateTime createdAt) {
         this.id = id;
         this.title = title;
         this.description = description;
